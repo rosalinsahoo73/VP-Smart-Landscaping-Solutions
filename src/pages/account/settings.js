@@ -93,7 +93,7 @@ const SettingsPage = (props) => {
           <form onSubmit={(e) => handleSubmit(e)} noValidate>
             <div className={styles.nameSection}>
               <FormInputField
-                id={'firstName'}
+                id={'firstNames'}
                 value={updateForm.firstName}
                 handleChange={(id, e) => handleChange(id, e)}
                 type={'input'}
